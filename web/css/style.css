@@ -1,0 +1,159 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 190px;
+    position: relative;
+    bottom: 0;
+}
+
+header .logo{
+    background-size: 100%;
+    width: 500px;
+    padding: 30px 0 0 20px;
+}
+
+header .logo:hover{
+    cursor: pointer;
+}
+
+.main_menu{
+    background: #1a2026;
+    list-style-type: none;
+    position: absolute;
+    height: 50px;
+    width: 96%;
+    margin: 0;
+    box-shadow: 0 4px 10px -2px black;
+    z-index: 999;
+    min-width: 925px;
+    margin-left: 2%;
+}
+
+.main_menu .search input[type="text"]{
+    background: #666666;
+    border: none;  
+    outline:none;
+    padding: 8px 20px 8px 20px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 10pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    color: aliceblue;
+}
+
+.main_menu .search input[type="text"]:focus{
+    background: #c2cbcf;
+    color: #1a2026;
+}
+
+.main_menu .search input[type=submit]{
+    background: url(/web/img/search.png);
+    background-size: 100% 100%;
+    border: 0;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 11px;
+    left: 465px;
+}
+
+.main_menu .search input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.main_menu .bt_addAd{
+    background: #339900;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 10pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.main_menu .bt_addAd:hover{
+    border: 1px solid aliceblue;
+    cursor: pointer;
+    padding: 9px 19px 9px 19px;
+}
+
+section{
+    background: #0f0f12;
+    top: 50px;
+    width: 96%;
+    margin-left: 2%;
+    position: relative;
+    overflow: auto;
+    min-height: 700px;
+    text-align: center;
+    min-width: 925px;
+}
+
+.categories{
+    width: 875px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.categories a{
+    width: 175px;
+    float: left;
+    height: 150px;
+    text-decoration: none;
+}
+
+.categories a span{
+    width: 150px;
+}
+
+.categories a span p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size: 12pt;
+}
+
+.categories a span #count{
+    color: gray;
+    font-size: 10pt;
+}
+
+.categories img{
+    background-size: 100% 100%;
+    width: 49px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.categories img:hover{
+    width: 45px;
+    padding: 12px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer
+{
+    background: #1a2026;
+    width: 96%;
+    height: 80px;
+    margin-left: 2%;
+    position: relative;
+    overflow: auto;
+    box-shadow: 0 4px 10px 2px black;
+    text-align: center;
+    color: aliceblue;
+    min-width: 925px;
+}
